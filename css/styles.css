@@ -431,7 +431,7 @@ body {
   margin-right: 30px;
 }
 
-.clients>.icones {
+.clients > .icones {
   display: flex;
   align-self: center;
   width: 106px;
