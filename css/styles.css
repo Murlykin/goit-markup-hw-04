@@ -438,10 +438,9 @@ body {
   height: 60px;
 }
 
-.clients-links:focus
 .clients-links:hover .icones {
   fill: var(--beckground-color);
-  border-color: var(--beckground-color);
+
 }
 
 /* =======================Footer===========================================*/
