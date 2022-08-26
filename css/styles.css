@@ -438,8 +438,8 @@ body {
   height: 60px;
 }
 
-.clients-links:hover
-.clients-links:hover .icones{
+.clients-links:focus
+.clients-links:hover .icones {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);
 }
