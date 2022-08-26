@@ -60,7 +60,7 @@ body {
   --border-color: #eeeeee;
   --icone-color: #afb1b8;
   --icone-bg-color: #f5f4fa;
-  --technical-color: tomato;
+  /* --technical-color: tomato; */
 }
 
 .sections {
@@ -361,11 +361,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 16px;
 }
 
 .team-sochmed > .item {
-    flex-basis: calc(100% / 4 - 10px);
-      margin-left: 10px;
+    flex-basis: calc(100% / 4 - 15px);
+      margin-left: 15px;
+      justify-content: space-around
  
 }
 
@@ -529,6 +531,7 @@ body {
   flex-wrap: wrap;
 }
 
+
 .footer-sochmed > .item {
   display: flex;
 }
@@ -566,7 +569,7 @@ body {
   background-color: var(--button-hover-focus);
 }
 
-.foot-links .svg-links {
+.foot-links {
   fill: var(--body-background-color);
 }
 
