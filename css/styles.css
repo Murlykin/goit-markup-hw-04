@@ -58,7 +58,9 @@ body {
   --footer-bacground-color: #2f303a;
   --teams-bacground-color: #f5f4fa;
   --border-color: #eeeeee;
-  /* --technical-color: tomato; */
+  --icone-color: #afb1b8;
+  --icone-bg-color: #f5f4fa;
+  --technical-color: tomato;
 }
 
 .sections {
@@ -157,12 +159,25 @@ body {
   color: var(--text-color-p);
 }
 
+.nav-icones {
+  margin-right: 10px;
+}
+
+.nav-icones:hover {
+  fill: var(--button-hover-focus);}
+
 /* ================== section_1 ==================== */
 .banner {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--footer-bacground-color);
   text-align: center;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/baner.jpg);
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .header-text {
@@ -173,7 +188,6 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: var(--body-background-color);
-  background: #2f303a;
   margin-top: 0px;
   margin-bottom: 30px;
 }
@@ -257,6 +271,18 @@ body {
   color: var(--text-color-p);
   margin-top: 0;
 }
+.first-icones {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--icone-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone {
+  background-color: var(--icone-bg-color);
+}
 
 /* Line
 .line {
@@ -331,8 +357,88 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.team-sochmed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-/* Footer */
+.team-sochmed .item {
+  display: flex;
+}
+
+.team-sochmed .icones {
+  width: 20px;
+  height: 20px;
+  box-sizing: border-box;
+  outline: 2px solid var(--technical-color);
+}
+
+.team-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--icone-color);
+  fill: currentColor;
+  outline: 2px solid var(--technical-color);
+}
+
+.team-links:hover {
+  color: var(--button-hover-focus);
+  background-color: var(--beckground-color);
+}
+
+.team-links:hover .svg-links {
+  fill: var(--body-background-color);
+}
+
+/* ====================== section-5 =======================================*/
+
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 0 -30px;
+}
+
+.clients .item {
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+}
+
+.clients-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  color: var(--icone-color);
+  fill: currentColor;
+  border: 1px solid var(--icone-color);
+  border-radius: 4px;
+  outline: 2px solid var(--technical-color);
+}
+
+.clients > .item:not(:nth-last-child()) {
+  margin-right: 30px;
+}
+
+.clients > .icones {
+  display: flex;
+  align-self: center;
+  width: 106px;
+  height: 60px;
+}
+
+.clients-links:hover,
+.clients .icones:focus {
+  fill: var(--beckground-color);
+  border-color: var(--beckground-color);
+}
+
+/* =======================Footer===========================================*/
 .logo-footer {
   font-family: 'Raleway';
   font-weight: 700;
@@ -382,6 +488,82 @@ body {
 
 .ul-address a:focus {
   outline: none;
+}
+
+.sochmed-conteiner {
+  margin-left: 70px;
+}
+
+.title-footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 12px;
+  margin-bottom: 20px;
+  color: var(--body-background-color);
+}
+.sochmed-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sochmed-footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-conteiner {
+  display: flex;
+}
+
+.footer-sochmed {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-sochmed > .item {
+  display: flex;
+}
+
+.conteiner-footer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+  outline: 2px solid var(--technical-color);
+}
+.foot-links > .icones {
+  background-image: url(../images/svg/instagram.svg), url(../images/svg/tviter.svg),
+    url(../images/svg/facebook.svg), url(../images/svg/linkedin.svg);
+
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  background-position: left, center -10px, center, right;
+  background-origin: content-box;
+}
+.foot-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--body-background-color);
+  fill: currentColor;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.foot-links:hover {
+  color: var(--body-background-color);
+  background-color: var(--button-hover-focus);
+}
+
+.foot-links .svg-links {
+  fill: var(--body-background-color);
 }
 
 /*========================= portfoli=========================*/
@@ -469,11 +651,10 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.elements-portfolio>.items {
-  flex-basis: calc(100% / 3 - 30px);  
+.elements-portfolio > .items {
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .elements-portfolio > .items:not(:nth-child(-n + 3)) {
   margin-top: 30px;
 }
-
