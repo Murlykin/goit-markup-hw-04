@@ -427,7 +427,7 @@ body {
   outline: 2px solid var(--technical-color);
 }
 
-.clients > .item:not(:last-child) {
+.clients > .item:not(:nth-last-child()) {
   margin-right: 30px;
 }
 
