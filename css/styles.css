@@ -427,11 +427,11 @@ body {
   outline: 2px solid var(--technical-color);
 }
 
-.clients > .item:not(:nth-last-child()) {
+.clients > .item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients .icones {
+.clients > .icones {
   display: flex;
   align-self: center;
   width: 106px;
