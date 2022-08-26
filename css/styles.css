@@ -377,7 +377,8 @@ body {
 .team-links {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -434,7 +435,7 @@ body {
 }
 
 .clients-links:hover
-.clients .icones:focus {
+.clients > .icones:focus {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);
 }
