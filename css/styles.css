@@ -392,7 +392,7 @@ body {
   background-color: var(--beckground-color);
 }
 
-.team-links:hover .svg-links {
+.team-links:hover .icones {
   fill: var(--body-background-color);
 }
 
@@ -426,7 +426,7 @@ body {
   margin-right: 30px;
 }
 
-.clients > .icones {
+.clients .icones {
   display: flex;
   align-self: center;
   width: 106px;
