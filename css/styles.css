@@ -541,7 +541,7 @@ body {
   margin: 0;
   outline: 2px solid var(--technical-color);
 }
-.foot-links > .icones {
+.foot-links .icones {
  
   background-repeat: no-repeat;
   background-size: 20px 20px;
