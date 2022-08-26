@@ -160,7 +160,7 @@ body {
 }
 
 .nav-icones {
- margin-top: 5px;
+padding-top: 5px;
  margin-right: 10px;
 }
 
@@ -431,9 +431,10 @@ body {
   align-self: center;
   width: 106px;
   height: 60px;
+  flex-basis: calc(100% / 4- 30px);
 }
 
-.clients-links:hover,
+.clients-links:hover
 .clients .icones:focus {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);
@@ -538,9 +539,7 @@ body {
   outline: 2px solid var(--technical-color);
 }
 .foot-links > .icones {
-  background-image: url(../images/svg/instagram.svg), url(../images/svg/tviter.svg),
-    url(../images/svg/facebook.svg), url(../images/svg/linkedin.svg);
-
+ 
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: left, center -10px, center, right;
