@@ -60,7 +60,7 @@ body {
   --border-color: #eeeeee;
   --icone-color: #afb1b8;
   --icone-bg-color: #f5f4fa;
-  /* --technical-color: tomato; */
+  --technical-color: tomato;
 }
 
 .sections {
@@ -68,7 +68,8 @@ body {
   padding-bottom: 94px;
 }
 
-.conteiner {
+.conteiner,
+.conteiner-top {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -85,13 +86,7 @@ body {
 }
 
 .conteiner-top {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   height: 80px;
-  width: 1200px;
-  outline: 2px solid var(--technical-color);
 }
 
 .logo-top {
@@ -164,7 +159,11 @@ body {
 }
 
 .nav-icones:hover {
-  fill: var(--beckground-color);}
+  fill: var(--beckground-color);
+}
+.poshta::before {
+background-image: url(./images/icons.svg#poshta)
+}
 
 /* ================== section_1 ==================== */
 .banner {
@@ -394,7 +393,10 @@ body {
 }
 
 /* ====================== section-5 =======================================*/
-
+.section-5 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .clients {
   display: flex;
   flex-wrap: wrap;
@@ -421,8 +423,8 @@ body {
 .clients > .icones {
   display: flex;
   align-self: center;
-  width: 106px;
-  height: 60px;
+  width: 170px;
+  height: 92px;
 }
 
 .clients-links:hover,
