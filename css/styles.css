@@ -20,6 +20,7 @@ img {
   padding: 0;
   margin: 0;
 }
+
 h1,
 h2,
 h3,
@@ -150,23 +151,16 @@ body {
   color: var(--text-color);
 }
 
-.contact-nav,
-.poshta {
+.contact-nav {
   color: var(--text-color-p);
 }
 
 .nav-icones {
- margin-right: 10px;
+  margin-right: 10px;
 }
 
 .nav-icones:hover {
   fill: var(--beckground-color);
-}
-
-.poshta::before {
-background-image: url(../images/icons.svg#poshta);
-background-position: center;
-  background-size: cover;
 }
 
 /* ================== section_1 ==================== */
@@ -274,6 +268,7 @@ background-position: center;
   color: var(--text-color-p);
   margin-top: 0;
 }
+
 .first-icones {
   height: 120px;
   margin-bottom: 30px;
@@ -301,12 +296,15 @@ background-position: center;
 .about {
   padding-top: 0;
 }
+
 .section-3 {
   display: flex;
 }
+
 .section-3 > .items {
   display: inline-block;
 }
+
 .section-3 .items + .items {
   margin-left: 30px;
 }
@@ -323,9 +321,11 @@ background-position: center;
   color: var(--text-color);
   margin-top: 0;
 }
+
 .header-text-section-4 {
   margin-bottom: 10px;
 }
+
 .text-section-4 {
   font-weight: 400;
   font-size: 16px;
@@ -359,6 +359,7 @@ background-position: center;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team-sochmed {
   display: flex;
   flex-wrap: wrap;
@@ -386,7 +387,6 @@ background-position: center;
   outline: 2px solid var(--technical-color);
 }
 
-
 .team-links:hover {
   color: var(--button-hover-focus);
   background-color: var(--beckground-color);
@@ -401,6 +401,7 @@ background-position: center;
   padding-left: 0px;
   padding-right: 0px;
 }
+
 .clients {
   display: flex;
   flex-wrap: wrap;
@@ -434,7 +435,8 @@ background-position: center;
 .clients-links:hover,
 .clients .icones:focus {
   fill: var(--beckground-color);
-  border-color: var(--beckground-color);}
+  border-color: var(--beckground-color);
+}
 
 /* =======================Footer===========================================*/
 .logo-footer {
@@ -480,6 +482,7 @@ background-position: center;
 .ul-address > .items:not(:last-child) {
   margin-bottom: 9px;
 }
+
 .ul-address a:hover {
   color: var(--beckground-color);
 }
@@ -505,14 +508,17 @@ background-position: center;
   margin-bottom: 20px;
   color: var(--body-background-color);
 }
+
 .sochmed-footer {
   display: flex;
   flex-wrap: wrap;
 }
+
 .sochmed-footer {
   display: flex;
   flex-wrap: wrap;
 }
+
 .footer-conteiner {
   display: flex;
 }
@@ -522,12 +528,11 @@ background-position: center;
   flex-wrap: wrap;
 }
 
-
 .footer-sochmed > .item {
   display: flex;
 }
-.icones
-.conteiner-footer {
+
+.icones .conteiner-footer {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -535,14 +540,15 @@ background-position: center;
   margin: 0;
   outline: 2px solid var(--technical-color);
 }
+
 .foot-links .icones {
- 
   background-repeat: no-repeat;
   background-size: 20px 20px;
   background-position: left, center -10px, center, right;
   background-origin: content-box;
-  fill: #ffffff
+  fill: #ffffff;
 }
+
 .foot-links {
   display: flex;
   align-items: center;
@@ -555,6 +561,7 @@ background-position: center;
   fill: currentColor;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .foot-links:hover {
   color: var(--body-background-color);
   background-color: var(--button-hover-focus);
@@ -603,7 +610,7 @@ background-position: center;
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
- }
+}
 
 .title-portfolio {
   font-weight: 700;
@@ -636,11 +643,11 @@ background-position: center;
 .decoration {
   text-decoration: none;
 }
+
 .picture-decoration:hover,
 .picture-decoration:focus {
   display: block;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -657,6 +664,7 @@ background-position: center;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .elements-portfolio > .items {
   flex-basis: calc(100% / 3 - 30px);
 }
