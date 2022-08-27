@@ -162,9 +162,9 @@ body {
   fill: var(--beckground-color);
 }
 .poshta::before {
-background-image: url(./images/icons.svg#poshta);
-  background-position: center;
-    background-size: cover;
+background-image: url(../images/icons.svg#poshta);
+background-position: center;
+  background-size: cover;
 }
 
 /* ================== section_1 ==================== */
