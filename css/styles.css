@@ -139,6 +139,7 @@ body {
 
 .link-focus a:focus {
   outline: none;
+  color: var(--beckground-color);
 }
 
 .nav-link,
@@ -152,6 +153,8 @@ body {
 }
 
 .contact-nav {
+  display: flex;
+  align-items: center;
   color: var(--text-color-p);
 }
 
@@ -162,7 +165,12 @@ body {
 .nav-icones:hover {
   fill: var(--beckground-color);
 }
-
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--beckground-color);
+}
 /* ================== section_1 ==================== */
 .banner {
   padding-top: 200px;
@@ -386,21 +394,18 @@ body {
   fill: currentColor;
   outline: 2px solid var(--technical-color);
 }
-
-.team-links:hover {
+.team-links:hover,
+.team-links:focus {
   color: var(--button-hover-focus);
   background-color: var(--beckground-color);
 }
 
-.team-links:hover .icones {
+.team-links:hover .icones,
+.team-links:focus .icones {
   fill: var(--body-background-color);
 }
 
 /* ====================== section-5 =======================================*/
-.section-5 {
-  padding-left: 0px;
-  padding-right: 0px;
-}
 
 .clients {
   display: flex;
@@ -410,7 +415,7 @@ body {
 }
 
 .clients .item {
-  flex-basis: calc(100% / 6 - 30px);
+  flex-basis: calc((100% - 150px) / 6);
 }
 
 .clients-links {
@@ -433,6 +438,7 @@ body {
 }
 
 .clients-links:hover,
+.clients-links:focus,
 .clients .icones:focus {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);
@@ -561,8 +567,8 @@ body {
   fill: currentColor;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
-.foot-links:hover {
+.foot-links:hover,
+.foot-links:focus {
   color: var(--body-background-color);
   background-color: var(--button-hover-focus);
 }
