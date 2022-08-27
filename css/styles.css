@@ -150,7 +150,8 @@ body {
   color: var(--text-color);
 }
 
-.contact-nav {
+.contact-nav,
+.poshta {
   color: var(--text-color-p);
 }
 
@@ -161,6 +162,7 @@ body {
 .nav-icones:hover {
   fill: var(--beckground-color);
 }
+
 .poshta::before {
 background-image: url(../images/icons.svg#poshta);
 background-position: center;
