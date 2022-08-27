@@ -351,7 +351,6 @@ body {
   padding: 30px 0;
   margin-top: 0;
   margin-bottom: 0;
-
   outline: 2px solid var(--technical-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -361,7 +360,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-    column-gap: 10px;
+  column-gap: 10px;
   margin-top: 16px;
 }
 
@@ -376,8 +375,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  
-
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -401,13 +398,12 @@ body {
 .clients {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 0 0 -30px;
+  justify-content: center;
+  column-gap: 30px;
 }
 
 .clients .item {
   flex-basis: calc(100% / 6 - 30px);
-  margin-left: 30px;
 }
 
 .clients-links {
@@ -422,10 +418,6 @@ body {
   outline: 2px solid var(--technical-color);
 }
 
-.clients > .item:not(:nth-last-child()) {
-  margin-right: 30px;
-}
-
 .clients > .icones {
   display: flex;
   align-self: center;
@@ -437,6 +429,7 @@ body {
 .clients .icones:focus {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);}
+
 /* =======================Footer===========================================*/
 .logo-footer {
   font-family: 'Raleway';
@@ -604,7 +597,8 @@ body {
   border-left: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
-}
+ }
+
 .title-portfolio {
   font-weight: 700;
   font-size: 18px;
