@@ -489,11 +489,9 @@ body {
   margin-bottom: 9px;
 }
 
-.ul-address a:hover {
-  color: var(--beckground-color);
-}
-
+.ul-address a:hover,
 .ul-address a:focus {
+  color: var(--beckground-color);
   outline: none;
 }
 
