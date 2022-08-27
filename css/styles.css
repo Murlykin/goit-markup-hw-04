@@ -360,15 +360,9 @@ body {
 .team-sochmed {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+    column-gap: 10px;
   margin-top: 16px;
-}
-
-.team-sochmed > .item {
-    flex-basis: calc(100% / 4 - 15px);
-      margin-left: 15px;
-      justify-content: space-around
- 
 }
 
 .team-sochmed .icones {
@@ -382,6 +376,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 
   width: 44px;
   height: 44px;
