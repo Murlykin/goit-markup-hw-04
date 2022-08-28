@@ -162,14 +162,12 @@ body {
   margin-right: 10px;
 }
 
-.nav-icones:hover {
-  fill: var(--beckground-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus,
+.site-nav:hover,
+.site-nav:focus,
 .auth-nav a:hover,
 .auth-nav a:focus {
   color: var(--beckground-color);
+  fill: var(--beckground-color);
 }
 /* ================== section_1 ==================== */
 .b-section {
