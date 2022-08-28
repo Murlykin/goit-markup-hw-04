@@ -437,7 +437,8 @@ body {
 
 .clients-links:hover,
 .clients-links:focus,
-.clients .icones:focus {
+.clients .icones:focus 
+.clients .icones:hover {
   fill: var(--beckground-color);
   border-color: var(--beckground-color);
 }
